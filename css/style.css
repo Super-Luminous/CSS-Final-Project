@@ -39,6 +39,11 @@ nav img
     margin: 10px;
 }
 
+nav a
+{
+    text-decoration: none;
+}
+
 .navbar         
 {
     display: inline-block;
@@ -70,7 +75,7 @@ nav img
     padding: 0; 
 }
 
-.navbar li 
+.button
 {
     text-align: center;
     padding: 5px;
@@ -79,6 +84,12 @@ nav img
     margin-bottom: 5px;
     border: 3px solid, black;
     background-color: lightgray;
+}
+
+.button:hover
+{
+    border-color: yellow;
+    border-width: 5px;
 }
 
 #navbar-hightlight
